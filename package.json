@@ -6,7 +6,7 @@
   "main": "build/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node build/pokemon-server.js",
+    "start": "node server.js",
     "dev": "ts-node-esm pokemon-server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
